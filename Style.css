@@ -122,7 +122,111 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
 }
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+    }
 
+    nav ul.active {
+        display: block;
+    }
+
+    nav ul li {
+        padding: 20px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo, span {
+        display: block;
+        text-align: center;
+    }
+
+    .background {
+        height: auto;
+    }
+
+    .Main {
+        text-align: center;
+    }
+
+    .Main h1 {
+        font-size: 40px;
+    }
+
+    .Main h4 {
+        font-size: 18px;
+    }
+
+    .Main h3 {
+        font-size: 20px;
+    }
+
+    .Container-btn {
+        text-align: center;
+    }
+
+    .Container-btn form {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .Container-btn form input:first-child {
+        width: 100%;
+    }
+
+    .Container-btn form input:last-child {
+        position: static;
+    }
+
+    .background-color-Sobre {
+        padding: 50px 0;
+    }
+
+    .background-color-Sobre img {
+        width: 100%;
+    }
+
+    .main-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Text-sobre h2 {
+        font-size: 40px;
+    }
+
+    .Text-sobre h5 {
+        font-size: 18px;
+    }
+
+    .Text-sobre p {
+        font-size: 16px;
+    }
+
+    .Container-serviços .title h2 {
+        font-size: 40px;
+    }
+
+    .Caixa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Card {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
 nav ul li a:hover{
     color: #f9004d;
     transform: .4s;
@@ -415,11 +519,10 @@ footer p{
 
 
 
-
-
 .end{
     position: absolute;
     color: #b20000;
     bottom: 35px;
     font-size: 14px ;
 }
+
